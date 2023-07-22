@@ -25,8 +25,10 @@
 }
 
 .custom-btn {
-  background-color: var(--light);
-  color: var(--blue);
+  /* background-color: var(--light); */
+  /* color: var(--blue); */
+  background-color:rgba(21, 133, 189, 0.936);
+  color:rgba(21, 133, 189, 0.936);
 }
 
 .custom-btn:hover {

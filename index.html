@@ -44,22 +44,64 @@
     </nav>
 
     <!-- create an apply a custom class name "hero" -->
-    <section class="py-5 hero">
+    <section class="py-4 hero">
       <div class="container">
-        <h2>Don’t give up without talking to me. 
-          I’m here to help you and it’s FREE!
-          </h2>
+        <h2>Don’t give up without talking to me. I’m here to help you and it’s FREE!</h2>
         <p class="lead"> </p>
         <li> Are you a home owner who is at risk of losing your home? </li>
         <li> Are you behind on your mortgage? </li>
         <li> Have your received a Notice of Default from your mortgage company or lienholder?</li>
         
-
-        <!-- create and apply a custom class name "custom-btn" -->
-        <button class="btn btn-lg custom-btn">Learn more!</button>
       </div>
     </section>
+
+    <section>
+      <div class="col-12 col-md-4 col-lg-3">
+        <h3>Sidebar Content</h3>
+        <ul>
+          <li>Spans 3 / 12 columns on large screens</li>
+          <li>Spans 4 / 12 columns on medium screens</li>
+          <li>Spans 12 / 12 (full-width) on smaller screens</li>
+        </ul>
+      </div
+    <p>
+      <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseFC" role="button" aria-expanded="false" aria-controls="multiCollapseFC">What is a Foreclosure?</a>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseSS" aria-expanded="false" aria-controls="multiCollapseSS">What is a Short Sale?</button>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseFCVSSS" aria-expanded="false" aria-controls="multiCollapseFCVSSS">What is the difference between a Foreclosure and a Short Sale?</button>
+    </p>
+    <div class="row">
+      <div class="col-12 col-md-4 col-lg-3">
+        <div class="collapse multi-collapse" id="multiCollapseFC">
+          <div class="card card-body">
+            A foreclosure is when a lender of another entity takes possesion of a home due to non-payment of a mortgage, HOA dues, property taxes, etc.
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+        <div class="collapse multi-collapse" id="multiCollapseSS">
+          <div class="card card-body">
+            A short sale is when a lender takes less than what they are owed as payment in full in an effort to avoid the foreclosure process.
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 col-lg-3">
+        <div class="collapse multi-collapse" id="multiCollapseFCVSSS">
+          <div class="card card-body">
+            In a foreclosure, the bank has taken possession of the home.  In a short sale, the homeowner still owns the home.
+          </div>
+        </div>
+      </div>
+    </div>
     
+    <p> There are several reasons why a homeowner is not able to make payments to their mortgage, property taxes or HOA dues. 
+      The reasons vary for every person, whether a death or illness of an earning spouse; a loss of job; a decrease of income;
+      a divorce; or loss of business, these are all considered hardships.  A lender will consider a short sale if 
+      a homeowner has a hardship.  The lender will consider a short sale rather than go to foreclosure because of the costs
+      incurred to foreclose, the length of time to sell the foreclosed property, and the effect of a foreclosure on their books.
+    </p>
+
+  </section>
+
     <script src="./assets/js/script.js"></script>
   </body>
 
