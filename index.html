@@ -20,8 +20,10 @@
   <body>
     <!-- create and apply a custom class name "custom-navbar" -->
     <nav class="navbar navbar-expand-lg custom-navbar navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Home Stars of Texas Realty</a>
+        <img id="mylogo" src="./css/PJ Logo With Fonts.jpg" alt="Home Stars of Texas Logo" />
+        <div class="container-fluid">
+        <h1>Home Stars of Texas Realty</h1>
+        <!-- <a class="navbar-brand" href="#">Home Stars of Texas Realty</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -32,7 +34,7 @@
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button> -->
         <div class="collapse navbar-collapse" id="navbar">
           <div class="navbar-nav ms-auto">
             <a class="nav-item nav-link" href="#">Home</a>
@@ -55,36 +57,39 @@
       </div>
     </section>
 
-    <section>
-      <div class="col-12 col-md-4 col-lg-3">
+    <section class="container my-2">
+      
+      <div class="sidebar">
         <h3>Sidebar Content</h3>
         <ul>
           <li>Spans 3 / 12 columns on large screens</li>
           <li>Spans 4 / 12 columns on medium screens</li>
           <li>Spans 12 / 12 (full-width) on smaller screens</li>
         </ul>
-      </div
+      </div>
+
+    <div class="ssinfo">
     <p>
       <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseFC" role="button" aria-expanded="false" aria-controls="multiCollapseFC">What is a Foreclosure?</a>
       <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseSS" aria-expanded="false" aria-controls="multiCollapseSS">What is a Short Sale?</button>
       <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseFCVSSS" aria-expanded="false" aria-controls="multiCollapseFCVSSS">What is the difference between a Foreclosure and a Short Sale?</button>
     </p>
     <div class="row">
-      <div class="col-12 col-md-4 col-lg-3">
+      <div class="col">
         <div class="collapse multi-collapse" id="multiCollapseFC">
           <div class="card card-body">
             A foreclosure is when a lender of another entity takes possesion of a home due to non-payment of a mortgage, HOA dues, property taxes, etc.
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-4 col-lg-3">
+      <div class="col">
         <div class="collapse multi-collapse" id="multiCollapseSS">
           <div class="card card-body">
             A short sale is when a lender takes less than what they are owed as payment in full in an effort to avoid the foreclosure process.
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-4 col-lg-3">
+      <div class="col">
         <div class="collapse multi-collapse" id="multiCollapseFCVSSS">
           <div class="card card-body">
             In a foreclosure, the bank has taken possession of the home.  In a short sale, the homeowner still owns the home.
@@ -99,6 +104,7 @@
       a homeowner has a hardship.  The lender will consider a short sale rather than go to foreclosure because of the costs
       incurred to foreclose, the length of time to sell the foreclosed property, and the effect of a foreclosure on their books.
     </p>
+  </div>
 
   </section>
 

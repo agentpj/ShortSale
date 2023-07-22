@@ -8,6 +8,8 @@
 
 .custom-navbar {
   background-color: var(--darkblue);
+  padding: 20px;
+  font:white;
 }
 
 .custom-navbar a {
@@ -19,9 +21,31 @@
   color: var(--light);
 }
 
+.container-fluid {
+color: white;
+margin-left: 40px;
+}
+
 .hero {
-  background-color: var(--seablue);
-  color: var(--darkblue);
+  /* background-color: var(--seablue); */
+  /* color: var(--darkblue); */
+  color: white;
+  background-color: red;
+  font-style: italic;
+}
+
+#mylogo{
+  height:75px;
+  width: auto;
+  margin-top: 10px;
+  margin-left: 5px;
+
+.sidebar {
+  flex: 30%;
+}
+
+.ssinfo {
+  flex: 70%;
 }
 
 .custom-btn {
