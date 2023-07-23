@@ -73,10 +73,14 @@ li {
   margin-right: 10px;
 }
 
-#testimonials {
+#testimonials, #aboutMe {
 background-color: #c3dfea;
-padding: 20px;
+padding: 40px;
 font-style: italic;
+}
+
+#contactForm {
+  padding: 40px;
 }
 .custom-btn {
   /* background-color: var(--light); */
