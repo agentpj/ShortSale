@@ -73,10 +73,9 @@ li {
   margin-right: 10px;
 }
 
-.ssinfo {
-  flex: 70%;
+#testimonials {
+background-color: #c3dfea;
 }
-
 .custom-btn {
   /* background-color: var(--light); */
   /* color: var(--blue); */
