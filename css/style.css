@@ -26,11 +26,17 @@ color: white;
 margin-left: 40px;
 }
 
+.custom-container {
+  margin-left: 20px;
+  margin-right:10px;
+  width: 100%;
+}
+
 .hero {
   /* background-color: var(--seablue); */
   /* color: var(--darkblue); */
   color: white;
-  background-color: red;
+  background-color: #c3dfea;
   font-style: italic;
 }
 
@@ -39,9 +45,32 @@ margin-left: 40px;
   width: auto;
   margin-top: 10px;
   margin-left: 5px;
+}
 
-.sidebar {
-  flex: 30%;
+#cloud {
+  height: 50px;
+  width: auto;
+  margin-left: 80px;
+  margin-right: 0px;
+}
+
+#house {
+  height: 80px;
+  width: auto;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-style: italic;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: grey;
+}
+.custom-sidebar {
+  width: 275px;
+  background-color: #c3dfea;
+  margin-right: 10px;
 }
 
 .ssinfo {
