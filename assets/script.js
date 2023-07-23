@@ -10,11 +10,9 @@ var submissionResponseEl = document.querySelector("#response");
 function showResponse(event) {
   // Prevent default action
   event.preventDefault();
- // console.log(event);
- // var contactInput = nameInput + "," + phoneInput + "," + emailInput + "," + "5127867355@tmomail.net,";
   var response = "Thank you for your submission " + nameInput.value + "! We will reach out to you at " + emailInput.value + ".";
   submissionResponseEl.textContent = response;
 }
   
 // Add listener to submit element
-// submitEl.addEventListener("click", showResponse);
+//submitEl.addEventListener("click", showResponse);
